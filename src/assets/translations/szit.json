@@ -173,7 +173,7 @@
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "Keresztelő János születésének igérete",
+                    "section_title": "Keresztelő János születésének hírüladása",
                     "mt": [
                         null
                     ],
@@ -298,7 +298,7 @@
                 },
                 {
                     "id": "3",
-                    "section_title": "Jézus születésének igérete",
+                    "section_title": "Jézus születésének hírüladása",
                     "mt": [
                         null
                     ],
@@ -3813,7 +3813,7 @@
                 },
                 {
                     "id": "41",
-                    "section_title": "Péter halfogása",
+                    "section_title": "A csodálatos halfogás",
                     "mt": [
                         null
                     ],
@@ -4522,7 +4522,7 @@
                 },
                 {
                     "id": "47",
-                    "section_title": "Jézus szombaton gyógyít",
+                    "section_title": "Jézus meggyógyítja a béna kezűt szombaton",
                     "mt": [
                         {
                             "leading": false,
@@ -14436,7 +14436,7 @@
                 },
                 {
                     "id": "148",
-                    "section_title": "Jézus sok beteget meggyógyít",
+                    "section_title": "Genezáreti gyógyítások",
                     "mt": [
                         {
                             "leading": true,
@@ -15930,7 +15930,7 @@
                 },
                 {
                     "id": "161",
-                    "section_title": "Jézus megdicsőülése",
+                    "section_title": "Jézus színeváltozása",
                     "mt": [
                         {
                             "leading": true,
@@ -16751,7 +16751,7 @@
                 },
                 {
                     "id": "169",
-                    "section_title": "Az eltévedt juh",
+                    "section_title": "Az elveszett bárány",
                     "mt": [
                         {
                             "leading": true,
@@ -19170,7 +19170,7 @@
                 },
                 {
                     "id": "203",
-                    "section_title": "Intés vigyázásra. Az okos és a hitvány szolga",
+                    "section_title": "Intés vigyázásra. A hű és a hitvány szolga",
                     "mt": [
                         {
                             "leading": false,
@@ -25202,7 +25202,7 @@
                 },
                 {
                     "id": "272",
-                    "section_title": "A fügefa kiszáradása",
+                    "section_title": "A fügefa megátkozása",
                     "mt": [
                         {
                             "leading": true,
@@ -27958,7 +27958,7 @@
                 },
                 {
                     "id": "297",
-                    "section_title": "Az okos és a hitvány szolga",
+                    "section_title": "Az hű és a hitvány szolga",
                     "mt": [
                         {
                             "leading": true,
@@ -33249,7 +33249,7 @@
                 },
                 {
                     "id": "349",
-                    "section_title": "Jézus halála",
+                    "section_title": "Megnyitják Jézus oldalát",
                     "mt": [
                         null
                     ],
