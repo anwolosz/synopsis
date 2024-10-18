@@ -173,7 +173,7 @@
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "Keresztelő János születésének igérete",
+                    "section_title": "Keresztelő János születésének hírüladása",
                     "mt": [
                         null
                     ],
@@ -298,7 +298,7 @@
                 },
                 {
                     "id": "3",
-                    "section_title": "Jézus születésének igérete",
+                    "section_title": "Jézus születésének hírüladása",
                     "mt": [
                         null
                     ],
@@ -3813,7 +3813,7 @@
                 },
                 {
                     "id": "41",
-                    "section_title": "Péter halfogása",
+                    "section_title": "A csodálatos halfogás",
                     "mt": [
                         null
                     ],
@@ -4522,7 +4522,7 @@
                 },
                 {
                     "id": "47",
-                    "section_title": "Jézus szombaton gyógyít",
+                    "section_title": "Jézus meggyógyítja a béna kezűt szombaton",
                     "mt": [
                         {
                             "leading": false,
@@ -9692,7 +9692,7 @@
                 },
                 {
                     "id": "102",
-                    "section_title": "Jézus küldetéséről",
+                    "section_title": "Meghasonlás az evangélium miatt",
                     "mt": [
                         {
                             "leading": true,
@@ -14436,7 +14436,7 @@
                 },
                 {
                     "id": "148",
-                    "section_title": "Jézus sok beteget meggyógyít",
+                    "section_title": "Genezáreti gyógyítások",
                     "mt": [
                         {
                             "leading": true,
@@ -15930,7 +15930,7 @@
                 },
                 {
                     "id": "161",
-                    "section_title": "Jézus megdicsőülése",
+                    "section_title": "Jézus színeváltozása",
                     "mt": [
                         {
                             "leading": true,
@@ -16751,7 +16751,7 @@
                 },
                 {
                     "id": "169",
-                    "section_title": "Az eltévedt juh",
+                    "section_title": "Az elveszett bárány",
                     "mt": [
                         {
                             "leading": true,
@@ -19170,7 +19170,7 @@
                 },
                 {
                     "id": "203",
-                    "section_title": "Intés vigyázásra. Az okos és a hitvány szolga",
+                    "section_title": "Intés éberségre. A hű és a hitvány szolga",
                     "mt": [
                         {
                             "leading": false,
@@ -20310,7 +20310,7 @@
                 },
                 {
                     "id": "219",
-                    "section_title": "Az elveszett juh",
+                    "section_title": "Az elveszett bárány",
                     "mt": [
                         {
                             "leading": false,
@@ -20549,7 +20549,7 @@
                 },
                 {
                     "id": "222",
-                    "section_title": "A hamis intéző",
+                    "section_title": "A hűtlen intéző",
                     "mt": [
                         null
                     ],
@@ -21168,7 +21168,7 @@
                 },
                 {
                     "id": "234",
-                    "section_title": "Isten országa eljövetele",
+                    "section_title": "Isten országának eljövetele",
                     "mt": [
                         null
                     ],
@@ -25056,7 +25056,7 @@
                 },
                 {
                     "id": "270",
-                    "section_title": "Jézus siratja Jeruzsálemet",
+                    "section_title": "Jézus megsiratja Jeruzsálemet",
                     "mt": [
                         null
                     ],
@@ -25096,7 +25096,7 @@
                 },
                 {
                     "id": "271",
-                    "section_title": "Jézus megtisztítja a templomot",
+                    "section_title": "Jézus megtisztítja a templomot. Visszatérés Betániába",
                     "mt": [
                         {
                             "leading": true,
@@ -25202,7 +25202,7 @@
                 },
                 {
                     "id": "272",
-                    "section_title": "A fügefa kiszáradása",
+                    "section_title": "A fügefa megátkozása",
                     "mt": [
                         {
                             "leading": true,
@@ -26794,7 +26794,7 @@
                 },
                 {
                     "id": "285",
-                    "section_title": "Jézus panasza Jeruzsálem ellen",
+                    "section_title": "Jézus ítéletet mond Jeruzsálem felett",
                     "mt": [
                         {
                             "leading": true,
@@ -27958,7 +27958,7 @@
                 },
                 {
                     "id": "297",
-                    "section_title": "Az okos és a hitvány szolga",
+                    "section_title": "A hű és a hitvány szolga",
                     "mt": [
                         {
                             "leading": true,
@@ -32302,7 +32302,7 @@
                 },
                 {
                     "id": "340",
-                    "section_title": "Pilátus kiszolgáltatja Jézust",
+                    "section_title": "„Íme, az ember!”",
                     "mt": [
                         {
                             "leading": false,
@@ -33249,7 +33249,7 @@
                 },
                 {
                     "id": "349",
-                    "section_title": "Jézus halála",
+                    "section_title": "Megnyitják Jézus oldalát",
                     "mt": [
                         null
                     ],
@@ -34163,7 +34163,7 @@
                 },
                 {
                     "id": "358",
-                    "section_title": "Az apostolok kiküldése",
+                    "section_title": "Az apostolok küldetése",
                     "mt": [
                         null
                     ],
@@ -34208,7 +34208,7 @@
                 },
                 {
                     "id": "359",
-                    "section_title": "Jézus megjelenik a tizenegy tanítványnak Galileában egy hegyen. Az apostolok kiküldése",
+                    "section_title": "Jézus megjelenik a tizenegy tanítványnak Galileában egy hegyen. Az apostolok küldetése",
                     "mt": [
                         {
                             "leading": false,
@@ -34428,7 +34428,7 @@
                 },
                 {
                     "id": "364",
-                    "section_title": "Máté befejezése: az apostolok kiküldése",
+                    "section_title": "Máté befejezése: az apostolok küldetése",
                     "mt": [
                         {
                             "leading": true,

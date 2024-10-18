@@ -173,7 +173,7 @@
             "sections": [
                 {
                     "id": "2",
-                    "section_title": "Keresztelő János születésének igérete",
+                    "section_title": "Keresztelő János születésének hírüladása",
                     "mt": [
                         null
                     ],
@@ -298,7 +298,7 @@
                 },
                 {
                     "id": "3",
-                    "section_title": "Jézus születésének igérete",
+                    "section_title": "Jézus születésének hírüladása",
                     "mt": [
                         null
                     ],
@@ -3813,7 +3813,7 @@
                 },
                 {
                     "id": "41",
-                    "section_title": "Péter halfogása",
+                    "section_title": "Péter csodálatos halfogása",
                     "mt": [
                         null
                     ],
@@ -9692,7 +9692,7 @@
                 },
                 {
                     "id": "102",
-                    "section_title": "Jézus küldetéséről",
+                    "section_title": "Meghasonlás az evangélium miatt",
                     "mt": [
                         {
                             "leading": true,
@@ -14436,7 +14436,7 @@
                 },
                 {
                     "id": "148",
-                    "section_title": "Jézus sok beteget meggyógyít",
+                    "section_title": "Genezáreti gyógyítások",
                     "mt": [
                         {
                             "leading": true,
@@ -18621,7 +18621,7 @@
                 },
                 {
                     "id": "195",
-                    "section_title": "„Oltalmazzátok meg magatokat a farizeusok kovászától!”",
+                    "section_title": "„Őrizkedjetek a farizeusok kovászától!”",
                     "mt": [
                         {
                             "leading": false,
@@ -18907,7 +18907,7 @@
                 },
                 {
                     "id": "199",
-                    "section_title": "A kapzsiságról",
+                    "section_title": "A telhetetlenségről",
                     "mt": [
                         null
                     ],
@@ -19170,7 +19170,7 @@
                 },
                 {
                     "id": "203",
-                    "section_title": "Intés vigyázásra. A bölcs és a gonosz szolga",
+                    "section_title": "Intés vigyázásra. A hű és a gonosz szolga",
                     "mt": [
                         {
                             "leading": false,
@@ -25096,7 +25096,7 @@
                 },
                 {
                     "id": "271",
-                    "section_title": "Jézus megtisztítja a templomot",
+                    "section_title": "Jézus megtisztítja a templomot. Visszatérés Bethániába",
                     "mt": [
                         {
                             "leading": true,
@@ -25202,7 +25202,7 @@
                 },
                 {
                     "id": "272",
-                    "section_title": "A fügefa elszáradása",
+                    "section_title": "A fügefa megátkozása",
                     "mt": [
                         {
                             "leading": true,
@@ -26794,7 +26794,7 @@
                 },
                 {
                     "id": "285",
-                    "section_title": "Jézus panasza Jeruzsálem ellen",
+                    "section_title": "Jézus ítéletet mond Jeruzsálem felett",
                     "mt": [
                         {
                             "leading": true,
@@ -27668,7 +27668,7 @@
                 },
                 {
                     "id": "294",
-                    "section_title": "Befejezés: intés éberségre (Márk szerint)",
+                    "section_title": "Befejezés: intés vigyázásra (Márk szerint)",
                     "mt": [
                         {
                             "leading": false,
@@ -27772,7 +27772,7 @@
                 },
                 {
                     "id": "295",
-                    "section_title": "Befejezés: intés éberségre (Lukács szerint)",
+                    "section_title": "Befejezés: intés vigyázásra (Lukács szerint)",
                     "mt": [
                         null
                     ],
@@ -27812,7 +27812,7 @@
             "sections": [
                 {
                     "id": "296",
-                    "section_title": "Példázat az özönvízről és intés éberségre",
+                    "section_title": "Példázat az özönvízről és intés vigyázásra",
                     "mt": [
                         {
                             "leading": true,
@@ -27958,7 +27958,7 @@
                 },
                 {
                     "id": "297",
-                    "section_title": "A bölcs és a gonosz szolga",
+                    "section_title": "A hű és a gonosz szolga",
                     "mt": [
                         {
                             "leading": true,
@@ -32302,7 +32302,7 @@
                 },
                 {
                     "id": "340",
-                    "section_title": "Pilátus kiszolgáltatja Jézust",
+                    "section_title": "„Ímhol az ember!",
                     "mt": [
                         {
                             "leading": false,
@@ -33249,7 +33249,7 @@
                 },
                 {
                     "id": "349",
-                    "section_title": "Jézus halála",
+                    "section_title": "Megnyitják Jézus oldalát",
                     "mt": [
                         null
                     ],
