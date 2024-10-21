@@ -10,7 +10,7 @@ import { useSynopsisStore } from "@/stores/SynopsisStore"
 
 const options: { [key: string]: string[] } = {
   "hu": ["KG", "SZIT", "KNB", "UF"],
-  "en": ["ESV", "BT", "SBLGNT", "NV"]
+  "en": ["ESV", "BT", "BJW", "SBLGNT", "NV"]
 }
 
 const languageDefaultRedirect = () =>

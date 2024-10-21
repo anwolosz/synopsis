@@ -52,6 +52,9 @@ export default {
                 <a href="https://pallottinum.pl/">Tysiąclecia</a>
             </li>
             <li>
+                Biblia, przekład Jakuba Wujka (1599); wyd. trzecie poprawione, Kraków, 1962; (Lublin, 1985), ISBN: 8387143022.
+            </li>
+            <li>
                 Greek New Testament,
                 <a href="https://sblgnt.com/">SBL</a>,
                 <a href="https://github.com/LogosBible/SBLGNT">Github</a>
@@ -63,12 +66,12 @@ export default {
             <li>
                 Szinopszis – Máté, Márk, Lukács és János evangéliumának párhuzamos szövege,
                 <a href="https://kalvinkiado.hu/">Kálvin Kiadó</a>
-                , Budapest, 1994, ISBN: 9633005922
+                , Budapest, 1994, ISBN: 9633005922.
             </li>
             <li>
                 Synopsis Quattuor Evangeliorum, Kurt Aland,
                 <a href="https://www.die-bibel.de/">Deutsche Bibelgesellschaft</a>
-                , Stuttgart, 2005, ISBN: 9783438051301
+                , Stuttgart, 2005, ISBN: 9783438051301.
             </li>
         </ul>
         <SourcesHu v-if="synopsisStore.currentLanguage === 'hu'" />

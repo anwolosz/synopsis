@@ -18,6 +18,8 @@
         <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/esv.json"
             target="_blank">ESV</a>,
         <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/bt.json"
-            target="_blank">BT</a>.
+            target="_blank">BT</a>,
+        <a href="https://raw.githubusercontent.com/anwolosz/synopsis/main/src/assets/translations/bjw.json"
+            target="_blank">BJW</a>.            
     </p>
 </template>
