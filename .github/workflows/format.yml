@@ -32,6 +32,10 @@ jobs:
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git checkout -b format-json-branch
+
+        # Pull the latest changes from the remote branch
+        git pull origin format-json-branch || echo "No changes in remote branch"
+
         git add .
         git commit -m 'Format JSON files' || echo "No changes to commit"
 
