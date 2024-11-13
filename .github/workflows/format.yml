@@ -25,21 +25,20 @@ jobs:
 
     - name: Push changes to auto-format-branch
       run: |
-        git fetch origin
-        git checkout auto-format-branch
-        git config --local user.email "github-actions@github.com"
-        git config --local user.name "github-actions"
+        git config --global user.name "github-actions"
+        git config --global user.email "github-actions@github.com"
+        git checkout -b auto-format
         git add .
         git commit -m "Auto-format code" || echo "No changes to commit"
-        git push origin auto-format-branch || echo "No changes to push"
+        git push --set-upstream origin auto-format
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Create Pull Request
-      run: |
-        curl -X POST -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-          -d '{"title": "Auto-format code changes", "head": "auto-format-branch", "base": "main"}' \
-          https://api.github.com/repos/${{ github.repository }}/pulls
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Create a pull request
+        uses: peter-evans/create-pull-request@v4
+        with:
+          title: 'chore: format JSON files'
+          body: 'Automated PR to format JSON files'
+          base: main
+          head: auto-format
 
