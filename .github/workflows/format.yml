@@ -35,10 +35,10 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Create a pull request
-        uses: peter-evans/create-pull-request@v4
-        with:
-          title: 'chore: format JSON files'
-          body: 'Automated PR to format JSON files'
-          base: main
-          head: auto-format
+      uses: peter-evans/create-pull-request@v4
+      with:
+        title: 'chore: format JSON files'
+        body: 'Automated PR to format JSON files'
+        base: main
+        head: auto-format
 
