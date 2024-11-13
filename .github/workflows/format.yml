@@ -23,7 +23,7 @@ jobs:
     - name: Run Prettier
       run: npx prettier --write "src/assets/translations/*.json"
 
-    - name: Push changes to auto-format-branch
+    - name: Push changes to auto-format branch
       run: |
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
