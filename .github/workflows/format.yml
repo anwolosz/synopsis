@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+permissions:
+  pull-requests: write
+
 jobs:
   format:
     runs-on: ubuntu-latest
@@ -31,9 +34,21 @@ jobs:
         git add .
         git commit -m 'Format JSON files' || echo "No changes to commit"
 
-    - name: Push changes and create a pull request
+    - name: Push changes to format-json-branch
+      run: |
+        git push origin format-json-branch
+
+    - name: Create Pull Request
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
-        git push origin format-json-branch
+        # Ensure `gh` CLI is installed
+        curl -fsSL https://cli.github.com/packages/githubcli.repo> /etc/apt/sources.list.d/github-cli.list
+        sudo apt update
+        sudo apt install gh
+
+        # Authenticate with GitHub CLI using the token
+        echo $GITHUB_TOKEN | gh auth login --with-token
+
+        # Create the pull request
         gh pr create --title "Format JSON files" --body "This PR formats all JSON files." --base main --head format-json-branch
