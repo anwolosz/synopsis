@@ -23,24 +23,17 @@ jobs:
     - name: Run Prettier
       run: npx prettier --write "src/assets/translations/*.json"
 
-    - name: Push changes to auto-format branch
+    - name: Commit formatted JSON files
       run: |
-        git config --global user.name "github-actions"
-        git config --global user.email "github-actions@github.com"
-        git checkout -b auto-format
-        git fetch origin auto-format
-        git rebase origin/auto-format || echo "No changes to rebase"
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git checkout -b format-json-branch
         git add .
-        git commit -m "Auto-format available resources" || echo "No changes to commit"
-        git push --set-upstream origin auto-format
+        git commit -m 'Format JSON files' || echo "No changes to commit"
+
+    - name: Push changes and create a pull request
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v4
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        title: "Auto-format available resources"
-        body: "This pull request contains auto-formatted changes to the available resources."
-        base: main
-        head: auto-format
+      run: |
+        git push origin format-json-branch
+        gh pr create --title "Format JSON files" --body "This PR formats all JSON files." --base main --head format-json-branch
