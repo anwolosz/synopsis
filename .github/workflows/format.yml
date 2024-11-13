@@ -21,7 +21,7 @@ jobs:
       run: npm install
 
     - name: Run Prettier
-      run: npx prettier --write "src/assets/translations/*.{json}"
+      run: npx prettier --write "src/assets/translations/*.json"
 
     - name: Commit changes
       run: |
