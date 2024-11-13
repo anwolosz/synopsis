@@ -27,6 +27,8 @@ jobs:
       run: |
         git fetch origin
         git checkout auto-format-branch
+        git config --local user.email "github-actions@github.com"
+        git config --local user.name "github-actions"
         git add .
         git commit -m "Auto-format code" || echo "No changes to commit"
         git push origin auto-format-branch || echo "No changes to push"
