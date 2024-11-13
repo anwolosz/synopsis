@@ -1,4 +1,4 @@
-name: Format
+name: Format Available Resources
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
         git config --local user.name "github-actions"
         git config --local user.email "github-actions@github.com"
         git add .
-        git commit -m "Auto-format code" || echo "No changes to commit"
+        git commit -m "Auto-format available resources" || echo "No changes to commit"
     - name: Push changes
       run: git push
       env:
