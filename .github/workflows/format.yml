@@ -28,7 +28,8 @@ jobs:
         git config --global user.name "github-actions"
         git config --global user.email "github-actions@github.com"
         git checkout -b auto-format
-        git pull origin auto-format || echo "No remote changes to pull"
+        git fetch origin auto-format
+        git rebase origin/auto-format || echo "No changes to rebase"
         git add .
         git commit -m "Auto-format available resources" || echo "No changes to commit"
         git push --set-upstream origin auto-format
