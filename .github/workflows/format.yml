@@ -31,29 +31,13 @@ jobs:
       run: |
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
-        git checkout -b format-json-branch
+        git commit -am "Format JSON files"
 
-        # Pull the latest changes from the remote branch
-        git pull origin format-json-branch || echo "No changes in remote branch"
-
-        git add .
-        git commit -m 'Format JSON files' || echo "No changes to commit"
-
-    - name: Push changes to format-json-branch
-      run: |
-        git push origin format-json-branch
 
     - name: Create Pull Request
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        # Ensure `gh` CLI is installed
-        curl -fsSL https://cli.github.com/packages/githubcli.repo> /etc/apt/sources.list.d/github-cli.list
-        sudo apt update
-        sudo apt install gh
-
-        # Authenticate with GitHub CLI using the token
-        echo $GITHUB_TOKEN | gh auth login --with-token
-
-        # Create the pull request
-        gh pr create --title "Format JSON files" --body "This PR formats all JSON files." --base main --head format-json-branch
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: main
+        commit-message: Format JSON files
+        title: Format JSON files
+        body: "Automated JSON formatting using Prettier"
