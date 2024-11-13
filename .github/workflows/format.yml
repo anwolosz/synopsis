@@ -34,11 +34,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-    - name: Create a pull request
+    - name: Create Pull Request
       uses: peter-evans/create-pull-request@v4
       with:
-        title: 'chore: format JSON files'
-        body: 'Automated PR to format JSON files'
+        token: ${{ secrets.GITHUB_TOKEN }}
+        title: "Auto-format available resources"
+        body: "This pull request contains auto-formatted changes to the available resources."
         base: main
         head: auto-format
-
