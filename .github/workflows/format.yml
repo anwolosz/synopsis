@@ -25,6 +25,7 @@ jobs:
 
     - name: Push changes to auto-format-branch
       run: |
+        git fetch origin
         git checkout auto-format-branch
         git add .
         git commit -m "Auto-format code" || echo "No changes to commit"
